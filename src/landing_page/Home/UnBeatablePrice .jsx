@@ -1,6 +1,6 @@
 export default function UnBeatablePrice () {
     return (
-        <div className="container">
+        <div className="container mb-5 mt-5">
             <div className="row align-items-center">
                 {/* Image Section with Heading */}
                 <div className="col-md-6">
@@ -13,8 +13,8 @@ export default function UnBeatablePrice () {
                 </div>
 
                 {/* Text Section - Ensure Vertical Alignment */}
-                <div className="col-md-6 d-flex align-items-center">
-                    <p  className="mx-4 ">We pioneered the concept of discount broking and price transparency in India. Flat fees and no hidden charges.</p>
+                <div className="col-md-6 d-flex  pt-5">
+                    <p  className="text-md-start ">We pioneered the concept of discount broking and price transparency in India. Flat fees and no hidden charges.</p>
                 </div>
             </div>
         </div>

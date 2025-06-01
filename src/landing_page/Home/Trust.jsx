@@ -1,6 +1,6 @@
 export default function Trust() {
     return (
-        <div className="container">
+        <div className="container mb-5 mt-5">
             <div className="row">
             <div className="col-md-6 " >
                 <h3 className="text-secondary mb-5" >Trust with Confidence</h3>

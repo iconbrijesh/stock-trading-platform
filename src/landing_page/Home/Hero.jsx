@@ -1,4 +1,4 @@
-import SignUpFree from '../../../SignUpFree.jsx';
+import SignUpFree from "@/SignUpFree";
 
 function Hero() {
     return (
