@@ -3,6 +3,7 @@ import Trust from "./Trust.jsx";
 import UnBeatablePrice from "./UnBeatablePrice .jsx";
 import Education from "./Education.jsx";
 import OpenAccount from "@/OpenAccount.jsx";
+import Footer from "@/Footer.jsx";
 
 export default function HomePage() {
     return (
@@ -13,6 +14,7 @@ export default function HomePage() {
             <UnBeatablePrice />
             <Education />
             <OpenAccount />
+            <Footer />
             
 
 
