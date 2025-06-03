@@ -1,4 +1,4 @@
-function PricingPage(){
+function ProductPage(){
     return(
         <>
           <div>I am about page</div>
@@ -7,4 +7,4 @@ function PricingPage(){
 
 }
 
-export default PricingPage;
+export default ProductPage;

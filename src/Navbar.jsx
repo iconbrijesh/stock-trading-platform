@@ -1,50 +1,38 @@
+import { Link } from "react-router-dom";
 export default function Navbar() {
     return (
-
-        <nav class="navbar navbar-expand-lg border-bottom"
+        <nav className="navbar navbar-expand-lg border-bottom"
             style={{ backgroundColor: "#ffffff", color: "#424242" }}
-
         >
-            <div class="container-fluid">
-                <a class="navbar-brand p-2" href="#">
+            <div className="container-fluid">
+                <Link className="navbar-brand p-2" to="/">
                     <img src="images/logo.svg" alt="logo" style={{ width: "25%" }} />
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                </Link>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                    <form class="d-flex" role="search">
-                        <ul class="navbar-nav mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Signup</a>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form className="d-flex" role="search">
+                        <ul className="navbar-nav mb-lg-0">
+                            <li className="nav-item">
+                                <Link className="nav-link active" aria-current="page" to="signup">Signup</Link>
                             </li>
-                          
-                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="about">About</Link>
                             </li>
-                             <li class="nav-item">
-                                <a class="nav-link" href="#">Products</a>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="product">Products</Link>
                             </li>
-                             <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="pricing">Pricing</Link>
                             </li>
-                             <li class="nav-item">
-                                <a class="nav-link" href="#">Support</a>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="support">Support</Link>
                             </li>
-
-                            
-
-
-
                         </ul>
-
                     </form>
                 </div>
             </div>
         </nav>
-
-
     );
-
 }

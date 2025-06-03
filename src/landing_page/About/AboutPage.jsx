@@ -1,4 +1,5 @@
-function PricingPage(){
+
+function AboutPage(){
     return(
         <>
           <div>I am about page</div>
@@ -7,4 +8,4 @@ function PricingPage(){
 
 }
 
-export default PricingPage;
+export default AboutPage;
