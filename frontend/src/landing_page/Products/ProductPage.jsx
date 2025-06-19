@@ -1,9 +1,30 @@
-function ProductPage(){
-    return(
+import Hero from "./Hero.jsx";
+import LeftSection from "./LeftSection.jsx";
+import RightSection from "./RightSection.jsx";
+import Universe from "./Universe.jsx";
+function ProductPage() {
+    return (
         <>
-          <div>I am about page</div>
+            <Hero/>
+            <LeftSection
+            imgURL ="images/kite.png" title="Kite" discription="Our ultra-fast flagship trading platform with streaming market data, advanced charts, an elegant UI, and more. Enjoy the Kite experience seamlessly on your Android and iOS devices." tryDemo="" learnMore="" googlePlay="" appStore=""
+            
+            />
+
+             <LeftSection
+            imgURL ="images/coin.png" title="Coin" discription="Buy direct mutual funds online, commission-free, delivered directly to your Demat account. Enjoy the investment experience on your Android and iOS devices." coin=""  googlePlay="" appStore=""
+            
+            />
+
+             <LeftSection
+            imgURL ="images/varsity.png" title="Varsity mobile" discription="An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go." 
+            
+            />
+            <RightSection />
+            <Universe />
+
         </>
-    )
+    );
 
 }
 

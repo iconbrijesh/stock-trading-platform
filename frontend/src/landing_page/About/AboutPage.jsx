@@ -1,8 +1,11 @@
+import Hero from "./Hero.jsx";
+import Team from "./Team.jsx";
 
 function AboutPage(){
     return(
         <>
-          <div>I am about page</div>
+          <Hero/>
+          <Team />
         </>
     )
 
