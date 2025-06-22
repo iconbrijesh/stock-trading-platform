@@ -1,9 +1,9 @@
-export default function LeftImage({ imgURL, title, discription, tryDemo, learnMore, googlePlay, appStore }) {
+export default function LeftSection({ imgURL, title, discription, tryDemo, learnMore, googlePlay, appStore }) {
     return (
         <div className="container">
             <div className="row">
                 <div className="col-5 p-3">
-                    <img src={imgURL} />
+                    <img src={imgURL}  className="img-fluid"/>
                 </div>
                 <div className="col-2"></div>
 
@@ -18,10 +18,10 @@ export default function LeftImage({ imgURL, title, discription, tryDemo, learnMo
                     </div>
                     <div className="">
                         <a href={googlePlay}>
-                            <img src="images/googlePlayBadge.svg" />
+                            <img src="images/googlePlayBadge.svg" className="img-fluid" />
                         </a>
                         <a href={tryDemo}style={{marginLeft: "10%"}}  >
-                            <img src="images/appstoreBadge.svg" />
+                            <img src="images/appstoreBadge.svg" className="img-fluid" />
                         </a>
 
                     </div>

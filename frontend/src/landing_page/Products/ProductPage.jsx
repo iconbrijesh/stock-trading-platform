@@ -11,8 +11,20 @@ function ProductPage() {
             
             />
 
+            <RightSection 
+                title="Console" discription="The central dashboard for your Zerodha account. Gain insights into your trades and investments with in-depth reports and visualisations." imgURL ="images/console.png"  learnMore="" 
+
+            
+            />
+
              <LeftSection
             imgURL ="images/coin.png" title="Coin" discription="Buy direct mutual funds online, commission-free, delivered directly to your Demat account. Enjoy the investment experience on your Android and iOS devices." coin=""  googlePlay="" appStore=""
+            
+            />
+
+              <RightSection 
+                title="Kite Connect API" discription="Build powerful trading platforms and experiences with our super simple HTTP/JSON APIs. If you are a startup, build your investment app and showcase it to our clientbase." imgURL ="images/kite.png"  learnMore="" 
+
             
             />
 
@@ -20,7 +32,10 @@ function ProductPage() {
             imgURL ="images/varsity.png" title="Varsity mobile" discription="An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go." 
             
             />
-            <RightSection />
+            
+              
+
+
             <Universe />
 
         </>

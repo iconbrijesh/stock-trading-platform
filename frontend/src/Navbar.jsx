@@ -1,10 +1,16 @@
 import { Link } from "react-router-dom";
 export default function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg border-bottom"
-            style={{ backgroundColor: "#ffffff", color: "#424242" }}
+
+        <nav className="navbar navbar-expand-lg   "
+            style={{
+                backgroundColor: "#ffffff",
+                color: "#424242",
+                width: "100vw", // Full viewport width
+                borderBottom: "1px solid #dee2e6"
+            }}
         >
-            <div className="container-fluid">
+            <div className="container-fluid ">
                 <Link className="navbar-brand p-2" to="/">
                     <img src="images/logo.svg" alt="logo" style={{ width: "25%" }} />
                 </Link>
@@ -33,6 +39,7 @@ export default function Navbar() {
                     </form>
                 </div>
             </div>
-        </nav>
+        </nav >
+
     );
 }
