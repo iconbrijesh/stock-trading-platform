@@ -1,0 +1,29 @@
+.fstrow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  padding: 0 !important;
+}
+
+.colum-left {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 0 0 6rem;
+}
+.colum-right {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 6rem 0 0;
+}
+
+h2{
+    font-weight:700;
+  
+}
+
+.srcbox{
+  width:75vw;
+  
+  margin: 2rem 6rem 0 6rem;
+
+}

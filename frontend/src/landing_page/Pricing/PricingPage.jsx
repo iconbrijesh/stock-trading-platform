@@ -1,10 +1,17 @@
-function PricingPage(){
-    return(
-        <>
-          <div>I am about page</div>
-        </>
-    )
+import AccOpenCharge from "./AccOpenCharge";
+import ChargesExplained from "./ChargesExplained";
+import Hero from "./Hero";
 
+function PricingPage() {
+  return (
+    <>
+     <Hero />
+      <ChargesExplained />
+      <AccOpenCharge />
+     
+     
+    </>
+  );
 }
 
 export default PricingPage;
