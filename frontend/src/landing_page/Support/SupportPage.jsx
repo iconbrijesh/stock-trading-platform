@@ -1,5 +1,8 @@
-// import SupportPortal from './supportPortal/SupportPortal.jsx';
+
 import SupportPortal from './SupportPortal/SupportPortal.jsx';
+import ServicesTab from './Services/ServicesTab.jsx';
+
+
 
 
 
@@ -7,6 +10,7 @@ function SupportPage() {
   return (
     <>
       <SupportPortal />
+      <ServicesTab />
     </>
   )
 }

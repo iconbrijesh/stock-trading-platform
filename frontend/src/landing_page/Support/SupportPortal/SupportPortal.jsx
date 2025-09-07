@@ -16,7 +16,7 @@ function SupportPortal() {
 
                     <div class="container.px-5 .mx-5 srcbox" >
                         <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Eg: How do I open my account, How do i activate F&O...
+                            <input className="form-control me-2" type="search" placeholder="Eg: How do I open my account, How do i activate F&O...
 " aria-label="Search" />
 
                         </form>
